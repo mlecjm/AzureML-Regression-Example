@@ -19,7 +19,8 @@ def azureml_main(BikeShare):
 ## file for testing purposes.    
     Azure = False  
     if(Azure == False):
-        pathName = "C:/Users/Steve/GIT/Quantia-Analytics/AzureML-Regression-Example/Python files"
+        #pathName = "C:/Users/Steve/GIT/Quantia-Analytics/AzureML-Regression-Example/Python files"
+        pathName = "C:\Users\user\Documents\GitHub\AzureML-Regression-Example\Python files"
         fileName = "BikeSharing.csv"
         filePath = os.path.join(pathName, fileName)
         BikeShare = pd.read_csv(filePath)
